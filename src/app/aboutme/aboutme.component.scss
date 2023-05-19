@@ -36,14 +36,14 @@
 .tech li::before {
   content: "• ";
   color: #71f3da;
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .img-div {
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -58,6 +58,6 @@
 }
 
 .about-img:hover {
-  // background-color: #64ffda1a;
+  background-color: #64ffda1a;
   transform: translateY(-20px);
 }

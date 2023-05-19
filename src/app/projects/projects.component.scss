@@ -1,23 +1,27 @@
 .projects-wrapper {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
   margin: 0 auto;
   scroll-margin-block-start: 100px;
+  margin-top: 4rem;
 }
 
 .projects-div {
-  height: 360px;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   width: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 50px;
+  padding: 1rem 4rem 1rem 1rem;
 }
 
 .projects-header {
+  position: absolute;
+  top: 0;
+  right: 10%;
   color: #71f3da;
   font-size: 1rem;
   font-weight: 400;
@@ -26,6 +30,9 @@
 }
 
 .projects-name {
+  position: absolute;
+  top: 8%;
+  right: 10%;
   font-size: 1.75rem;
   color: #ccd6f6;
   transition-duration: 1000ms;
@@ -38,11 +45,11 @@
 }
 
 .projects-img {
-  height: 18rem;
-  width: 36rem;
+  height: 16rem;
+  width: 32rem;
   position: absolute;
-  top: 50%;
-  left: 35%;
+  top: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   border-radius: 12px;
 }
@@ -51,10 +58,10 @@
   background-color: #112240;
   padding: 0rem 1.8rem;
   position: absolute;
-  top: 25%;
-  right: 0%;
-  width: 27rem;
-  height: 10.5rem;
+  top: 30%;
+  right: 10%;
+  width: 26rem;
+  height: 9rem;
   border-radius: 8px;
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   display: flex;
@@ -65,12 +72,13 @@
   color: #8892b0;
   font-size: 1.15rem;
   margin: auto;
+  text-align: center;
 }
 
 .projects-tech {
   position: absolute;
   bottom: 10%;
-  right: 6%;
+  right: 10%;
   display: flex;
   gap: 1.4rem;
   justify-content: space-evenly;
@@ -79,25 +87,36 @@
 }
 
 .projects-links {
-    position: absolute;
-    bottom: 0;
-    right: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .projects-icon {
-    color: #ccd6f6;
-    transition-duration: 1000ms;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(2);
+  color: #ccd6f6;
+  transition-duration: 1000ms;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(2);
 }
 
 .projects-icon:hover {
-    color: #71f3da;
+  color: #71f3da;
+}
+
+.projects-more {
+  margin: 0 auto 0 0;
+  text-decoration: none;
+  color: #ccd6f6;
+  transition-duration: 1000ms;
+}
+
+.projects-more:hover {
+  color: #71f3da;
 }

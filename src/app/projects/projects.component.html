@@ -1,29 +1,28 @@
 <section class="projects-wrapper" id="projects">
     <h2 class="heading">Some Things I've Built</h2>
-    <div class="projects-div">
+    <div class="projects-div" *ngFor="let project of projects">
         <h2 class="projects-header">Featured Project</h2>
-        <a href="https://thecoffeeshopfs.netlify.app" class="projects-name">The Coffee Shop</a>
-        <img src="../../assets/thecoffeeshop.png" alt="the coffee shop project img" class="projects-img">
+        <a href="{{project.link}}" target="_blank" class="projects-name">{{project.name}}</a>
+        <a href="{{project.link}}" target="_blank">
+            <img src="../../assets/{{project.img}}" alt="the coffee shop project img" class="projects-img">
+        </a>
         <div class="projects-desc-div">
             <p class="projects-desc">
-                You can register, log in, add products to cart, simulate the payment, edit your profile, contact, read
-                the blogs.
+                {{project.desc}}
             </p>
         </div>
         <ul class="projects-tech">
-            <li>React JS</li>
-            <li>Tailwind</li>
-            <li>MongoDB</li>
-            <li>Vite</li>
+            <li *ngFor="let tech of project.tech">{{tech}}</li>
         </ul>
         <div class="projects-links">
-            <a href="https://github.com/frknsprnl/coffee-shop" target="_blank" class="projects-icon">
+            <a href="{{project.github}}" target="_blank" class="projects-icon" *ngIf="project.github">
                 <ng-icon name="octMarkGithub"></ng-icon>
             </a>
-            <a href="https://thecoffeeshopfs.netlify.app/" target="_blank" class="projects-icon">
+            <a href="{{project.link}}" target="_blank" class="projects-icon">
                 <ng-icon name="featherExternalLink"></ng-icon>
             </a>
         </div>
     </div>
+    <a href="https://github.com/frknsprnl" target="_blank" class="projects-more">For other projects → </a>
 
 </section>
