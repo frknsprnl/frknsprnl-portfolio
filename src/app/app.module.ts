@@ -17,9 +17,10 @@ import {
   featherLinkedin,
   featherInstagram,
 } from '@ng-icons/feather-icons';
-import { bootstrapSteam } from '@ng-icons/bootstrap-icons';
+import { bootstrapSteam, bootstrapList } from '@ng-icons/bootstrap-icons';
 import { LeftLinksComponent } from './left-links/left-links.component';
 import { RightLinksComponent } from './right-links/right-links.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { RightLinksComponent } from './right-links/right-links.component';
     ContactComponent,
     LeftLinksComponent,
     RightLinksComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,7 @@ import { RightLinksComponent } from './right-links/right-links.component';
       featherLinkedin,
       featherInstagram,
       bootstrapSteam,
+      bootstrapList
     }),
   ],
   providers: [],
