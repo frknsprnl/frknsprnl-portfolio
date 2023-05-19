@@ -1,0 +1,43 @@
+.contact-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  scroll-margin-block-start: 100px;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  color: #ccd6f6;
+  margin: 10px 0 0;
+}
+
+.contact-text {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.25rem;
+  width: 60%;
+  text-align: center;
+  color: #8892b0;
+  font-weight: 300;
+}
+
+.contact-btn {
+  font-size: 0.9rem;
+  color: #71f3da;
+  padding: 1rem 1.5rem;
+  border: 1px solid #71f3da;
+  border-radius: 8px;
+  font-weight: 300;
+  background-color: transparent;
+  margin: 10px auto 10px 0;
+  font-family: "Fira Code", monospace;
+  margin: 0 auto;
+  transition-duration: 700ms;
+}
+
+.contact-btn:hover {
+  background-color: #64ffda1a;
+}
