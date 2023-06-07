@@ -2,8 +2,10 @@
     <a href="#">
         <img src="../assets/f-logo.png" alt="f-logo" class="app-logo">
     </a>
-    <ng-icon name="bootstrapList" class="dropdown"></ng-icon>
-    <nav>
+    <button (click)="toggleDropdown()"  class="dropdown">
+        <ng-icon name="bootstrapList"></ng-icon>
+    </button>
+    <nav id="navbar">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>

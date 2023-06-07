@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  toggleDropdown() {
+    const el = document.getElementById("navbar");
+    el!.style.display == "flex" ? el!.style.display = "none" : el!.style.display = "flex";
+  }
+ 
 }
