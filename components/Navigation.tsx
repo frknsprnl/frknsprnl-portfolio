@@ -54,10 +54,6 @@ export default function Navigation() {
     </svg>
   )
 
-  const getResumePath = () => {
-    return currentLanguage === 'en' ? '/resume.pdf' : '/resume-tr.pdf'
-  }
-
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -90,7 +86,7 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              href={getResumePath()}
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm border border-accent text-accent rounded hover:bg-accent/10 transition-colors font-mono"
@@ -194,7 +190,7 @@ export default function Navigation() {
                   </a>
                 ))}
                 <a
-                  href={getResumePath()}
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-4 py-2 text-sm border border-accent text-accent rounded hover:bg-accent/10 transition-colors w-fit"

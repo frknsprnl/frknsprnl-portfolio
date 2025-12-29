@@ -63,7 +63,7 @@ export default function About() {
                 <div className="relative aspect-square rounded-lg overflow-hidden border-2 border-accent/20 group">
                   <div className="absolute inset-0 bg-accent/10 rounded-lg blur-xl group-hover:blur-2xl transition-all" />
                   <Image
-                    src="/assets/frknsprnl.jfif"
+                    src="/assets/frknsprnl.png"
                     alt="Furkan Süpürenel"
                     fill
                     className="object-cover rounded-lg opacity-90 group-hover:opacity-100 transition-opacity"
