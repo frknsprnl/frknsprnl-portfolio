@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "resume": "Özgeçmiş"
+  },
+  "hero": {
+    "greeting": "Merhaba, benim adım",
+    "title": "Ölçeklenebilir dijital çözümler üretiyorum.",
+    "description": "3 yıldan fazla pratik geliştirme deneyimine sahip bir <0>Full-Stack Web Developer</0>'ım. Modern teknolojiler kullanarak ölçeklenebilir, yüksek performanslı web uygulamaları geliştirmede uzmanım. Temiz kod, en iyi uygulamalar ve sorunsuz kullanıcı deneyimleri konusunda tutkuluyum.",
+    "viewProjects": "Projeleri Görüntüle",
+    "contactMe": "İletişime Geç"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "paragraph1": "Merhaba! Ben Furkan, 3 yıldan fazla pratik geliştirme deneyimine sahip <0>Deneyimli Full-Stack Web Developer</0>'ım. Süleyman Demirel Üniversitesi'nden <1>Bilgisayar Mühendisliği</1> Lisans Derecesi'ne sahibim (2019-2023, GPA: 3.27). Modern teknolojiler kullanarak ölçeklenebilir, yüksek performanslı web uygulamaları geliştirmede yetenekliyim.",
+    "paragraph2": "<0>Temiz kod</0>, <1>en iyi uygulamalar</1> ve <2>sorunsuz kullanıcı deneyimleri</2> konusunda tutkuluyum. Figma UI tasarımlarını yüksek doğrulukta, piksel mükemmel ve duyarlı frontend uygulamalarına dönüştürmede uzmanım. Üretime hazır uygulamalar sunmak için dağıtılmış sistemler, mikroservis mimarisi ve modern DevOps araçlarıyla çalışıyorum.",
+    "paragraph3": "GitHub kullanarak gelişmiş ekip ortamlarında çalışma deneyimim var ve Jenkins, Elasticsearch ve Grafana gibi araçları kurma ve kullanma konusunda yetenekliyim. Sadece işlevsel değil, aynı zamanda <0>bakımı kolay, test edilebilir ve ölçeklenebilir</0> kod yazmaya inanıyorum.",
+    "whatIBring": "Sunduklarım:",
+    "problemSolving": "<0>Problem Çözme:</0> Karmaşık zorlukları yönetilebilir çözümlere ayırma",
+    "scalableSystems": "<0>Ölçeklenebilir Sistemler:</0> İşinizle birlikte büyüyen mimariler tasarlama",
+    "cleanCode": "<0>Temiz Kod:</0> Bakımı kolay, iyi dokümante edilmiş kod tabanları yazma",
+    "productMindset": "<0>Ürün Zihniyeti:</0> İş hedefleriyle uyumlu teknik kararlar",
+    "collaboration": "<0>İşbirliği:</0> Fonksiyonlar arası ekiplerle etkili çalışma"
+  },
+  "skills": {
+    "title": "Yetenekler & Teknolojiler",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Araçlar & DevOps"
+  },
+  "experience": {
+    "title": "Deneyim",
+    "present": "Şu an",
+    "keyAchievements": "Önemli Başarılar:",
+    "items": {
+      "1": {
+        "position": "Full-Stack Web Developer",
+        "location": "Eskişehir, Türkiye",
+        "description": [
+          "React uygulamalarında Cypress ve Jest kullanarak test stratejileri uyguladım",
+          "Jenkins, Elasticsearch ve Grafana gibi araçları kurup yapılandırdım ve kullandım",
+          "Sunucu operasyonları ve Docker konteyner yönetimi konusunda deneyim kazandım",
+          "MongoDB, Cassandra, Kafka ve Redis kullanarak dağıtılmış sistemlerle çalıştım",
+          "GitHub kullanarak gelişmiş ekip ortamında işbirliği yaptım",
+          "ProofHub gibi proje yönetim araçlarıyla deneyim kazandım",
+          "Figma UI tasarımlarını yüksek doğrulukta, piksel mükemmel ve duyarlı frontend uygulamalarına dönüştürmede yetenekliyim"
+        ]
+      },
+      "2": {
+        "position": "Full-Stack Web Developer (Stajyer)",
+        "location": "Eskişehir, Türkiye",
+        "description": [
+          "Mikroservis mimarisi ile pratik deneyim kazandım",
+          "React uygulamalarında durum yönetimi için Redux ile çalıştım",
+          "React, Python ve Node JS kullanarak şirket projesinde özellikler geliştirdim ve sürdürdüm",
+          "Gerçek dünya iş gereksinimlerini uygulamak için geliştirme ekibiyle işbirliği yaptım",
+          "Şirkete özel raporlama standartlarına uygun raporlar yazdım"
+        ]
+      },
+      "3": {
+        "position": "Ağ Mühendisi (Stajyer)",
+        "location": "Eskişehir, Türkiye",
+        "description": [
+          "PuTTY gibi sunucu yönetimi ve SSH araçlarıyla çalıştım",
+          "Ağ yapıları ve RJ-45 Ethernet kablo montajı konusunda teknik bilgi edindim",
+          "Sunucu kurulum ve bakım süreçlerine katkıda bulundum",
+          "Üniversitenin fiber internet altyapısının yükseltilmesine yardımcı oldum"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "description": "Teknik uzmanlığımı ve problem çözme yaklaşımımı sergileyen projelerim.",
+    "featured": "Öne Çıkan Proje",
+    "viewMore": "GitHub'da daha fazla proje görüntüle →",
+    "items": {
+      "1": {
+        "title": "The Coffee Shop",
+        "description": "Full-stack e-ticaret platformu",
+        "longDescription": "Kullanıcı kimlik doğrulama, alışveriş sepeti, ödeme simülasyonu ve blog işlevselliği ile kapsamlı bir e-ticaret uygulaması. Modern React desenleri ve ölçeklenebilir backend mimarisi ile geliştirildi."
+      },
+      "2": {
+        "title": "GoldSol Türkiye",
+        "description": "Uluslararasılaştırma ile kurumsal web sitesi",
+        "longDescription": "Tam TR/EN çeviri desteği, modern tasarım ve optimize edilmiş performans ile GoldSol Türkiye A.Ş için profesyonel kurumsal web sitesi."
+      },
+      "3": {
+        "title": "Eskişehir Nöbetçi Eczane",
+        "description": "Gerçek zamanlı eczane bulucu",
+        "longDescription": "Eskişehir için saatlik güncellenen, gerçek zamanlı veri tabanlı nöbetçi eczane bulucu. Doğru ve güncel bilgi sağlamak için harici API'lerle entegre edilmiştir."
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "description": "Şu anda yeni fırsatlara açığım. Bir sorunuz varsa veya sadece merhaba demek istiyorsanız, size en kısa sürede geri dönmeye çalışacağım!",
+    "letsConnect": "Bağlanalım",
+    "findMeOn": "Beni bulun",
+    "preferDirect": "Doğrudan iletişime geçmeyi mi tercih ediyorsunuz? Bana e-posta göndermekten veya LinkedIn'de bağlantı kurmaktan çekinmeyin.",
+    "sendMessage": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "namePlaceholder": "Adınız",
+    "emailPlaceholder": "e-posta@ornek.com",
+    "messagePlaceholder": "Mesajınız"
+  },
+  "footer": {
+    "builtWith": "Next.js & Tailwind CSS ile geliştirildi."
+  }
+}
+
