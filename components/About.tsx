@@ -28,8 +28,8 @@ export default function About() {
                 <Trans
                   i18nKey="about.paragraph1"
                   components={[
-                    <span className="text-accent" />,
-                    <span className="text-accent" />,
+                    <span key="0" className="text-accent" />,
+                    <span key="1" className="text-accent" />,
                   ]}
                 />
               </p>
@@ -37,16 +37,16 @@ export default function About() {
                 <Trans
                   i18nKey="about.paragraph2"
                   components={[
-                    <span className="text-accent" />,
-                    <span className="text-accent" />,
-                    <span className="text-accent" />,
+                    <span key="0" className="text-accent" />,
+                    <span key="1" className="text-accent" />,
+                    <span key="2" className="text-accent" />,
                   ]}
                 />
               </p>
               <p>
                 <Trans
                   i18nKey="about.paragraph3"
-                  components={[<span className="text-accent" />]}
+                  components={[<span key="0" className="text-accent" />]}
                 />
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function About() {
                     <span>
                       <Trans
                         i18nKey="about.problemSolving"
-                        components={[<strong className="text-text-primary" />]}
+                        components={[<strong key="0" className="text-text-primary" />]}
                       />
                     </span>
                   </li>
@@ -93,7 +93,7 @@ export default function About() {
                     <span>
                       <Trans
                         i18nKey="about.scalableSystems"
-                        components={[<strong className="text-text-primary" />]}
+                        components={[<strong key="0" className="text-text-primary" />]}
                       />
                     </span>
                   </li>
@@ -102,7 +102,7 @@ export default function About() {
                     <span>
                       <Trans
                         i18nKey="about.cleanCode"
-                        components={[<strong className="text-text-primary" />]}
+                        components={[<strong key="0" className="text-text-primary" />]}
                       />
                     </span>
                   </li>
@@ -111,7 +111,7 @@ export default function About() {
                     <span>
                       <Trans
                         i18nKey="about.productMindset"
-                        components={[<strong className="text-text-primary" />]}
+                        components={[<strong key="0" className="text-text-primary" />]}
                       />
                     </span>
                   </li>
@@ -120,7 +120,7 @@ export default function About() {
                     <span>
                       <Trans
                         i18nKey="about.collaboration"
-                        components={[<strong className="text-text-primary" />]}
+                        components={[<strong key="0" className="text-text-primary" />]}
                       />
                     </span>
                   </li>

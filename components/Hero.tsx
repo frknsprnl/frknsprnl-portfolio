@@ -51,7 +51,7 @@ export default function Hero() {
           >
             <Trans
               i18nKey="hero.description"
-              components={[<span className="text-accent" />]}
+              components={[<span key="0" className="text-accent" />]}
             />
           </motion.p>
 
