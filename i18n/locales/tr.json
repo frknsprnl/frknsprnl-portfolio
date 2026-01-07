@@ -81,7 +81,7 @@
       "1": {
         "title": "The Coffee Shop",
         "description": "Full-stack e-ticaret platformu",
-        "longDescription": "Kullanıcı kimlik doğrulama, alışveriş sepeti, ödeme simülasyonu ve blog işlevselliği ile kapsamlı bir e-ticaret uygulaması. Modern React desenleri ve ölçeklenebilir backend mimarisi ile geliştirildi."
+        "longDescription": "Kullanıcı kimlik doğrulama, alışveriş sepeti, ödeme simülasyonu ve blog işlevselliği ile kapsamlı bir e-ticaret uygulaması. Modern React desenleri ve ölçeklenebilir backend mimarisi ile geliştirildi. Not: Backend ücretsiz bir servise (Render) deploy edildiği için ilk yüklemede aktifleşmesi 1-2 dakika sürebilir."
       },
       "2": {
         "title": "GoldSol Türkiye",
@@ -92,6 +92,11 @@
         "title": "Eskişehir Nöbetçi Eczane",
         "description": "Gerçek zamanlı eczane bulucu",
         "longDescription": "Eskişehir için saatlik güncellenen, gerçek zamanlı veri tabanlı nöbetçi eczane bulucu. Doğru ve güncel bilgi sağlamak için harici API'lerle entegre edilmiştir."
+      },
+      "4": {
+        "title": "VisionCraft",
+        "description": "AI destekli görsel üretim platformu",
+        "longDescription": "Yapay zeka teknolojileri kullanarak yüksek kaliteli görseller üreten modern web uygulaması. Pollination AI entegrasyonu ile kullanıcı dostu arayüz ve hızlı görsel üretim özellikleri sunar. Next.js ve TypeScript ile geliştirilmiş, ölçeklenebilir ve performanslı bir mimariye sahiptir."
       }
     }
   },

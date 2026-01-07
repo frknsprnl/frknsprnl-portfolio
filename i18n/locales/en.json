@@ -81,7 +81,7 @@
       "1": {
         "title": "The Coffee Shop",
         "description": "Full-stack e-commerce platform",
-        "longDescription": "A comprehensive e-commerce application with user authentication, shopping cart, payment simulation, and blog functionality. Built with modern React patterns and a scalable backend architecture."
+        "longDescription": "A comprehensive e-commerce application with user authentication, shopping cart, payment simulation, and blog functionality. Built with modern React patterns and a scalable backend architecture. Note: The backend is deployed on a free service (Render), so initial load may take 1-2 minutes to activate."
       },
       "2": {
         "title": "GoldSol Türkiye",
@@ -92,6 +92,11 @@
         "title": "Eskişehir Nöbetçi Eczane",
         "description": "Real-time pharmacy finder",
         "longDescription": "An hourly updated, real-time data-based on-call pharmacy finder for Eskişehir. Integrates with external APIs to provide accurate, up-to-date information."
+      },
+      "4": {
+        "title": "VisionCraft",
+        "description": "AI-powered image generation platform",
+        "longDescription": "A modern web application that generates high-quality images using artificial intelligence technologies. Features user-friendly interface and fast image generation capabilities with Pollination AI integration. Built with Next.js and TypeScript, featuring a scalable and high-performance architecture."
       }
     }
   },

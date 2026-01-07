@@ -5,11 +5,16 @@ import i18n from '@/i18n/config'
 
 export default function I18nProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    // On client-side, sync language with localStorage and browser
-    const storedLang = localStorage.getItem('i18nextLng')
-    if (storedLang && storedLang !== i18n.language && (storedLang === 'en' || storedLang === 'tr')) {
-      i18n.changeLanguage(storedLang)
-    }
+    // Wait for hydration to complete before changing language
+    // Use double requestAnimationFrame to ensure React hydration is complete
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const storedLang = localStorage.getItem('i18nextLng')
+        if (storedLang && storedLang !== i18n.language && (storedLang === 'en' || storedLang === 'tr')) {
+          i18n.changeLanguage(storedLang)
+        }
+      })
+    })
     
     // Set initial html lang attribute
     document.documentElement.lang = i18n.language || 'en'

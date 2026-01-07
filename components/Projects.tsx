@@ -28,6 +28,14 @@ const projectsData = [
     image: 'eskisehirnobetcieczane.png',
     featured: true,
   },
+  {
+    id: '4',
+    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Pollination AI', 'React'],
+    githubUrl: 'https://github.com/frknsprnl/visioncraft',
+    liveUrl: 'https://visioncraft.vercel.app/',
+    image: 'visioncraft.png',
+    featured: true,
+  },
 ]
 
 export default function Projects() {
@@ -72,9 +80,11 @@ export default function Projects() {
                         <Image
                           src={`/assets/${project.image || 'project-placeholder.png'}`}
                           alt={projectData.title}
-                          width={600}
-                          height={400}
+                          width={1200}
+                          height={800}
+                          quality={100}
                           className="w-full h-auto object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                          priority={index === 0}
                         />
                       </div>
                     </div>

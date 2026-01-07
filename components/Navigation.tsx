@@ -16,7 +16,12 @@ export default function Navigation() {
   const { t, i18n } = useTranslation()
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [mounted, setMounted] = useState(false)
   const currentLanguage = i18n.language || 'en'
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,7 +87,7 @@ export default function Navigation() {
                 style={{ animationDelay: `${index * 0.1}s` }}
                 suppressHydrationWarning
               >
-                <span className="text-accent">0{index + 1}.</span> {t(`nav.${item.key}`)}
+                <span className="text-accent">0{index + 1}.</span> {mounted ? t(`nav.${item.key}`) : item.key}
               </a>
             ))}
             <a
@@ -90,8 +95,9 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm border border-accent text-accent rounded hover:bg-accent/10 transition-colors font-mono"
+              suppressHydrationWarning
             >
-              {t('nav.resume')}
+              {mounted ? t('nav.resume') : 'Resume'}
             </a>
           </div>
 
@@ -186,7 +192,7 @@ export default function Navigation() {
                     className="block text-text-secondary hover:text-accent transition-colors py-2"
                     suppressHydrationWarning
                   >
-                    {t(`nav.${item.key}`)}
+                    {mounted ? t(`nav.${item.key}`) : item.key}
                   </a>
                 ))}
                 <a
@@ -194,8 +200,9 @@ export default function Navigation() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-4 py-2 text-sm border border-accent text-accent rounded hover:bg-accent/10 transition-colors w-fit"
+                  suppressHydrationWarning
                 >
-                  {t('nav.resume')}
+                  {mounted ? t('nav.resume') : 'Resume'}
                 </a>
               </motion.div>
             )}
